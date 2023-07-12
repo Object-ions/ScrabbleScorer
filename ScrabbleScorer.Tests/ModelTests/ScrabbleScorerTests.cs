@@ -1,15 +1,27 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using ScrabbleScorer.Models;
+using System.Collections.Generic;
+using System;
+
 namespace ScrabbleScorer.Tests
 {
     [TestClass]
-    public class ChangeTest
+    public class ScrabbleScorerTest
     {
         [TestMethod]
-        public void DivideByUserInput_PrintAmountOfCoins()
+        public void BreakIntoLetters_ShouldReturnCharacterArray()
         {
             // Arrange
-            Assert.AreEqual(Change.Break(50), "Your Change is: 2 quarters, 0 dimes, 0 nickles, 0 pennies");
+            string userInput = "hello";
+            char[] actualResult = ScrabbleScorerClass.BreakIntoLetters(userInput);
+            // Expected
+            char[] expectedResult = { 'h', 'e', 'l', 'l', 'o' };
+
+            // Act
+
+
+            // Assert
+            CollectionAssert.AreEqual(expectedResult, actualResult);
         }
     }
 }

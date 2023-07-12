@@ -10,7 +10,7 @@
     </ItemGroup>
 
     <ItemGroup>
-        <ProjectReference Include="..\SmallChange\SmallChange.csproj" />  
+        <ProjectReference Include="..\ScrabbleScorer\ScrabbleScorer.csproj" />  
     </ItemGroup>
 
 </Project>

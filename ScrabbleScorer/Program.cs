@@ -1,8 +1,9 @@
 using System.Collections.Generic;
 using System.Threading;
 using System;
+using ScrabbleScorer.Models;
 
-namespace SmallChange.Models
+namespace ScrabbleScorer
 {
     class Program
     {
