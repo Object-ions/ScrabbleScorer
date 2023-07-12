@@ -16,5 +16,6 @@ namespace ScrabbleScorer.Models
             lettersAndValues.Add(8, new string[] { "J", "X" });
             lettersAndValues.Add(10, new string[] { "Q", "Z" });
         }
+
     }
 }
